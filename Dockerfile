@@ -17,6 +17,5 @@ VOLUME /data
 
 # Use tini for graceful shutdowns
 ENTRYPOINT ["tini", "--"]
-
 # Start n8n normally
 CMD ["n8n", "start"]
